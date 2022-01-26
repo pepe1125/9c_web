@@ -11,4 +11,4 @@ Dongesz	| majormate12@gmail.com
 ezjolesz	| toth.kende06@gmail.com
 JanosVitez	| pakutamas173@gmail.com	
 DavidBekenyi |	bekenyidavid5@gmail.com
-
+balukaaa | ????
