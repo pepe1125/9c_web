@@ -1,9 +1,9 @@
  # 9c_webshop
  
- Készítők:
+ ## Készítők:
  
- |GITHUBNÉV:|	EMAIL:|
- |----------|-------|
+|GITHUBNÉV:|	EMAIL:|
+|----------|-------|
 LapMa	| lapostyanmartin@gmail.com
 prionz	| prionz@outlook.hu
 faszom6	| d991589@gmail.com
