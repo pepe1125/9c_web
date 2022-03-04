@@ -1,0 +1,103 @@
+<!DOCTYPE >
+<html lang="hu"> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gonzolvilág</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+</head>
+<body>
+<div class="sidebar">
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Keresés" title="Keresés" >
+
+    <a class="active"href="index.html"><ion-icon name="home-outline" ></ion-icon> Főoldal</a>
+
+    <a href="Pc.html"class="icon"> <ion-icon name="desktop"></ion-icon> PC</a>
+
+    <a href="Xbox.html" class="icon"> <ion-icon name="logo-xbox"></ion-icon> Xbox</a>
+
+    <a href="Ps.html"> <ion-icon name="logo-playstation"></ion-icon> Playstation </a>
+
+    <a href="bejel.html" class="icon"> <ion-icon name="person-outline"></ion-icon> Regisztráció </a>
+
+    <a href="Kosárs.html"class="icon" > <ion-icon name="cart-outline"></ion-icon> Kosár</a>
+    
+    </div>
+    
+<div class="content">
+    <h1 align="center" >Akciós játékok,</h1>
+    
+  <table>
+      
+      <td>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+      </td>
+      <td>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+      </td>
+      <td>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+      </td>
+      <td>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+      </td>
+  </table>
+
+</div>
+
+    <script>
+        function myFunction() {
+          var input, filter, ul, li, a, i;
+          input = document.getElementById("mySearch");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("myMenu");
+          li = ul.getElementsByTagName("li");
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+</body>
+</html>
