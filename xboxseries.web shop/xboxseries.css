@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.xboxbody{
+    background-image:url(img/háttér.jpg);
+   
+}
+#xboxh1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    background-color: black ;
+    border: solid;
+}
+
+.xboxp{
+   color: black;
+  
+}
+.xboxbutton{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+   
+}
+.xboxgame {
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: .4rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.xboxdiv{
+    width: 56.5%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.xboxgame:hover {
+    transition: .5s ease;
+    transform: scale(1.08);
+}
+
+#xboxh2{
+    color: red;
+    text-align: left;
+    font-size: 50px;
+    background-color: white;
+    width: 11.5%;
+}
+
+.xboxcontainer{
+
+    height: max-content
+;
+    width: max-content;
+    
+    float: left;
+}
+ 
