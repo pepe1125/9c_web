@@ -1,6 +1,25 @@
-var termek01 = 15500
-var termek02 = 6999
-var termek03 = 29880
+var termek01 = 22890
+var termek02 = 20000 
+var termek03 = 7999
+var termek04 = 21999
+var termek05 = 21490
+var termek06 = 9999 
+var termek07 = 11890
+var termek08 = 16000
+var termek09 = 9000
+var termek10 = 12999
+var termek11 = 12999
+var termek12 = 11890
+var termek13 = 8990
+var termek14 = 9999
+var termek15 = 16999
+var termek16 = 21500
+var termek17 = 17490
+var termek18 = 20100
+var termek19 = 9990
+var termek20 = 11000
+//XBOX
+
 
 
 function hozzaad(termek) {
@@ -13,7 +32,7 @@ function torles() {
 }
 
 function kos() {
-    var list = "<tr><th>Termék neve: </th><th>darabszáma: </th><th>Ára: </th></tr>\n"
+    var list = "<tr><th style=\"margin:auto\">Termék neve: </th><th>darabszáma: </th><th>Ára: </th></tr>\n"
 
     var ossz = 0;
     var darab = 0;
