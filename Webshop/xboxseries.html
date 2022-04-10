@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gonzolvilág</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+  <nav>
+    <div class="sidebar-top">
+      <span class="shrink-btn">
+        <i class='bx bx-chevron-left'></i>
+      </span>
+      <img src="./img/logo.png" class="logo" alt="">
+      <h3 class="hide">Gonzolvilág</h3>
+    </div>
+
+    <div class="search">
+      <i class='bx bx-search'></i>
+      <input type="text" class="hide" placeholder="Keresés...">
+    </div>
+
+    <div class="sidebar-links">
+      <ul>
+        <div class="active-tab"></div>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="index.html" data-active="0">
+            <div class="icon">
+              <i class='bx bx-home'></i>
+              <i class='bx bxs-home'></i>
+            </div>
+            <span class="link hide">Főoldal</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="#" class="active"  data-active="1">
+            <div class="icon">
+              <i class='bx bx-joystick'></i>
+              <i class='bx bxs-joystick'></i>
+            </div>
+            <span class="link hide">Xbox</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="#" data-active="2">
+            <div class="icon">
+              <i class='bx bx-joystick-alt'></i>
+              <i class='bx bxs-joystick-alt'></i>
+            </div>
+            <span class="link hide">Ps</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="3">
+          <a href="#" data-active="3">
+            <div class="icon">
+              <i class='bx bx-desktop' ></i>
+              <i class='bx bxs-desktop' ></i>
+            </div>
+            <span class="link hide">Pc</span>
+          </a>
+        </li>
+      </ul>
+
+      <h4 class="hide">Egyebek</h4>
+
+      <ul>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="bejel.html" data-active="4">
+            <div class="icon">
+              <i class='bx bx-user' ></i>
+              <i class='bx bxs-user' ></i>
+            </div>
+            <span class="link hide">Regisztráció</span>
+         </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="#" data-active="5">
+            <div class="icon">
+              <i class='bx bx-info-circle' ></i>
+              <i class='bx bxs-info-circle' ></i>
+            </div>
+            <span class="link hide">Rólunk</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="kosar.html" data-active="6">
+            <div class="icon">
+              <i class='bx bx-cart' ></i>
+              <i class='bx bxs-cart' ></i>
+            </div>
+            <span class="link hide">Kosár</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="3">
+            <a href="aszf.html" data-active="7">
+              <div class="icon">
+                <i class='bx bx-book'></i>
+                <i class='bx bxs-book' ></i>
+              </div>
+              <span class="link hide">ÁSZF</span>
+            </a>
+          </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+  <main class="xboxbody">
+    <h1 id="xboxh1">XBOX SERIAS</h1><br>
+
+<div>
+    <button class="xboxbutton2"> Xbox 360</button>
+    <br><br><br>
+    <button class="xboxbutton2"> Xbox 360</button>
+</div>
+
+    <div class="xboxdiv">
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/call of duty vanguard.jpeg" height="200" alt="játék"></a>
+        <div class="leiras">
+          <b>
+            <p>22.890 Ft</p>
+          </b>
+          <p class="xboxp"> Call of Duty Vanguard</p>
+          <button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Call of duty Vanguard", db,); alert("Kosárhoz adva!")'>Kosárba</button>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/callof duty modern warfare.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>20.000 Ft</p>
+          </b>
+          <p class="xboxp">Call of Duty Modern Warfare</p>
+          <button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Call of duty Modern warfare", db); alert("Kosárhoz adva!")'>Kosárba</button>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/dirt 4.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>7.999 Ft</p>
+          </b>
+          <p class="xboxp">Dirt 4</p>
+          <button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Dirt 4", db); alert("Kosárhoz adva!")'>Kosárba</button>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/fifa 22.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>21.999 Ft</p>
+          </b>
+          <p class="xboxp">Fifa 22</p>
+          <button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Fifa 22", db); alert("Kosárhoz adva!")'>Kosárba</button>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/f1 2021.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>21.490 Ft</p>
+          </b>
+          <p class="xboxp">F1 2021</p>
+          <button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("F1 2021", db); alert("Kosárhoz adva!")'>Kosárba</button>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/dirt rally 2.0.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>9.999 Ft</p>
+          </b>
+          <p class="xboxp">Dirt rally 2.0</p>
+          <button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Dirt rally 2.0", db); alert("Kosárhoz adva!")'>Kosárba</button>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/farming simulator 22.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>11.890 Ft</p>
+          </b>
+          <p class="xboxp">Farming Simulator 22</p>
+          <button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Farming Simulator 22", db); alert("Kosárhoz adva!")'>Kosárba</button>
+        </div>
+      </div>
+  
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/NfS HEAT.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>16.000 Ft</p>
+          </b>
+          <p class="xboxp">Need for Speed Heat</p>
+          <button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("FNeed for Speed Heat", db); alert("Kosárhoz adva!")'>Kosárba</button>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/dirt 5.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>15.500 Ft</p>
+          </b>
+          <p class="xboxp">Dirt 5</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Dirt 5", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/rocket league.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>9.000 Ft</p>
+          </b>
+          <p class="xboxp">Rocket League</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Rocket League", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/sea of thieves.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>12.999 Ft</p>
+          </b>
+          <p class="xboxp">Sea of Thieves</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Sea of Thieves", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/snowrunner.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>11.890 Ft</p>
+          </b>
+          <p class="xboxp">Snowrunner</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Snowrunner", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/r6.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>8.990 Ft</p>
+          </b>
+          <p class="xboxp">Rainbow Six Siege</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Rainbow Six Siege", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/minecraft.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>9.999 Ft</p>
+          </b>
+          <p class="xboxp">Minecraft</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Minecraft", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/halo infinite.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>16.999 Ft</p>
+          </b>
+          <p class="xboxp">Halo Infinite</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Halo Infinite", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/gears of war 5.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p>21.500 Ft</p>
+          </b>
+          <p class="xboxp">Gears of War 5</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Gears of War 5", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/Forza horizon 5.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p> 17.490 Ft</p>
+          </b>
+          <p class="xboxp">Forza Horizon 5</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Forza Horizon 5", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/flight simulator.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p> 20.100 Ft</p>
+          </b>
+          <p class="xboxp">Flight Simulator</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Flight Simulator", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/gta 5.jpeg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p> 9.990 Ft</p>
+          </b>
+          <p class="xboxp">Gta 5</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Gta 5", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+  
+      <div class="xboxgame">
+        <a href=""><img src="img/Forza motorsport 5.jpg" height="200" alt="jéték"></a>
+        <div class="leiras">
+          <b>
+            <p> 11.000 Ft</p>
+          </b>
+          <p class="xboxp">Forza Motorsport 5</p>
+          <a href=""><button class="xboxbutton" onclick=' var db = Number(prompt("Mennyi kell?")); localStorage.setItem("Forza Motorsport 5", db); alert("Kosárhoz adva!")'>Kosárba</button></a>
+        </div>
+      </div>
+
+  </main>
+
+  <script src="app1.js"></script>
+
+</body>
+</html>
