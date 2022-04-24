@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+.ps_body{
+    background-image:url(ps_img/4.jpg);
+
+}
+#ps_cim{
+    text-align: center;
+    color:#003791;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    background-color: black ;
+    border: solid;
+}
+
+.ps_szoveg{
+   color: #ffff;
+  
+}
+.ps_gomb{
+    background-color: #003791;
+    border: none;
+    cursor: pointer;
+    color: #ffff;
+    display: inline-block;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+   
+}
+.ps_games {
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: .4rem;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.ps_div{
+    width: 56.5%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.ps_games:hover {
+    transition: .5s ease;
+    transform: scale(1.08);
+}
+
+p {
+    color: #ffff;
+}
+
+
